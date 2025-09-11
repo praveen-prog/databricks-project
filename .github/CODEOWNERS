@@ -1,5 +1,2 @@
-# Require Niveditha82 and pavan-amigo to review changes into dev branch
-dev @Niveditha82 @pavan-amigo
+ @pavan-amigo
 
-# Require only release manager for main
-main @pavan-amigo
