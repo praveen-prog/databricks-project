@@ -1,0 +1,5 @@
+env: dev
+database: dev_customer_db
+input_path: /mnt/dev/raw/customers
+output_path: /mnt/dev/clean/customers
+cluster: dev-cluster

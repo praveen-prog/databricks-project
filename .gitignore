@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+
+# Spark / Delta logs
+*.crc
+.delta_log/
+.sparkStaging/
+metastore_db/
+
+# VS Code
+.vscode/
+.settings/
+
+# Databricks
+dbfs:/ 
+*.dbc

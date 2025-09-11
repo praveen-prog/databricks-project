@@ -1,0 +1,8 @@
+name: customer_etl_job
+tasks:
+  - task_key: clean_customer_data
+    description: "Cleans raw customer data and writes to clean zone"
+    notebook_path: notebooks/transformation/clean_customers
+    libraries:
+      - pypi: { package: "pyspark" }
+    existing_cluster_id: dev-cluster
