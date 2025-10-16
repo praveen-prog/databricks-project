@@ -17,6 +17,6 @@ resources:
           notebook_task:
             notebook_path: /Workspace/Users/PRAVEENMEK@GMAIL.COM/01_ingestion
       schedule:
-        quartz_cron_expression:"0 30 10 ? * *"
+        quartz_cron_expression: "0 30 10 ? * *"
         timezone_id : Asia/Kolkata
               
