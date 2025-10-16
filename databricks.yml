@@ -1,0 +1,22 @@
+bundle:
+  name: dev-notebook-bundle
+
+targets:
+  dev:
+    workspace:
+      host: https://dbc-8d5174d0-0692.cloud.databricks.com/
+      root_path: /Workspace/Shared/devassetbundle/
+
+
+resources:
+  jobs:
+    dev-job:
+      name : dev-demo-job
+      tasks:
+        - task_key : run_notebook
+          notebook_task:
+            notebook_path: /Workspace/Users/PRAVEENMEK@GMAIL.COM/01_ingestion
+      schedule:
+        quartz_cron_expression:"0 30 10 ? * *"
+        timezone_id : Asia/Kolkata
+              
